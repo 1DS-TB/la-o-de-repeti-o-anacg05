@@ -4,9 +4,9 @@ soma = 0
 i = 1
 
 if n <= 0:
-    print("Invalido\n")
+    print("INVALIDO\n")
 
-elif n >0:
+else:
     while i <= n:
         soma += i
         i += 1
