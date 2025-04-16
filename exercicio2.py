@@ -5,7 +5,7 @@ i = 1
 
 if n <= 0:
     print("Invalido\n")
-    
+
 elif n >=1:
     while i <= n:
         soma += i
