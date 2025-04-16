@@ -11,3 +11,4 @@ else:
         fatorial *= i
 
     print(f"O fatorial de {numero} é: {fatorial}")
+
