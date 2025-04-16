@@ -6,9 +6,9 @@ i = 1
 if n <= 0:
     print("Invalido\n")
 
-elif n >=1:
+elif n >0:
     while i <= n:
         soma += i
         i += 1
 
-print(f"A soma de 1 até {n} é: {soma}")
+    print(f"A soma de 1 até {n} é: {soma}")

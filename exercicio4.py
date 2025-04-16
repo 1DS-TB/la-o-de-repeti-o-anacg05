@@ -1,7 +1,7 @@
 numero = int(input("Digite um número inteiro para calcular o fatorial: "))
 
 
-if numero<0:
+if numero<=0:
     print("Inválido: o número deve ser positivo.")
 
 else:
