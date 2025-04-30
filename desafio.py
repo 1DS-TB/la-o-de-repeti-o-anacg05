@@ -21,7 +21,7 @@ def calcular_dano(atq, def_inimigo):
     critico = random.random() < 0.1
     dano = max(0, atq - def_inimigo)
     if critico:
-        print("⚡ Crítico! Dano dobrado!")
+        print("Crítico! Dano dobrado!")
         dano *= 2
     return dano
 
@@ -159,7 +159,10 @@ def jogar(multiplayer):
 
     # Mensagem de vitória
     vencedor = jogador1["nome"] if jogador1["HP"] > 0 else jogador2["nome"]
-    print(f"\n🏆 {vencedor} venceu a batalha!\n")
+    print(f"\n {vencedor} venceu a batalha!\n")
 
 # Inicia o menu do jogo
 menu()
+
+
+
